@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(28, 19, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+padding: 20px; 
+width: 300px;
+border-radius: 12px;
+border: 1px solid white;
+color:white;
+cursor: pointer;
+font-size: 18px;
+}
+.container{
+    padding: 30px;
+    margin: 100px auto;
+    width: 300px;
+}
+.view{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.btns{
+    display: flex;gap: 24px;
+}
+.start{
+    background-color: rgb(0, 33, 55);
+}
+.start:hover{
+    background-color: rgb(0, 48, 80);
+      border-color: white;
+}
+.stop{
+    background-color: rgb(45, 0, 0);
+}
+.stop:hover{
+    background-color: rgb(80, 0, 0);
+   border-color: white;

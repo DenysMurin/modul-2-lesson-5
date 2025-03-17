@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>События</title>
+</head>
+<body>
+    <a href="http://s7.ru" id="myLink">ссылка ы7</a>
+    <button id="myButton">нажми меня</button>
+    <div id="outerDiv">
+        <div id="innerDiv">
+            <button id="innerButton">Нажми меня</button>
+        </div>
+        <ul id="myList">
+            <li>первый элемент</li>
+            <li>второй элемент</li>
+            <li>тертий</li>
+        </ul>
+    </div>
+    <!--  legacy-->
+    <div>
+<input type="button" value="Нажми меня" onclick="alert('click')">
+<input type="button" value="Считать марафоны!" onclick="countRoadmaps()" >
+    </div>
+    <!-- Использование свойства DOM объекта -->
+     <div>
+        <input id="elem" type="button" value="Нажми меня">
+     </div>
+     <a class="task" href="./task.html">нажми для перехода на задание</a>
+    <script src="./js/main.js"></script>
+</body>
+</html>
